@@ -1,6 +1,6 @@
 # DRYClaw
 
-中文说明，英文版见 [README.md](README.md)。
+中文说明，英文版见 [README_EN.md](README_EN.md)。
 
 DRYClaw 是一个面向终端工作流的 Python AI Agent CLI，支持文件操作、Shell 执行、网页交互、任务调度与守护进程模式。
 

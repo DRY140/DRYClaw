@@ -1,13 +1,3 @@
-## 🔭 项目概览
-演示视频	📺	`## 📺 演示视频
-安装	📦	## 📦 安装
-快速开始	🚀	## 🚀 快速开始
-环境配置	🛠️	## 🛠️ 环境配置
-CLI 用法	⌨️	## ⌨️ CLI 用法
-致谢与来源说明	📜	## 📜 致谢与来源说明
-声明与免责	⚠️	`## ⚠️ 声明与免责
-
-
 # DRYClaw
 
 Language: English | [中文](README.zh-CN.md)
@@ -124,17 +114,15 @@ Common commands:
 
 Detailed docs are in [docs/](docs/index.md).
 
+## 📜 Acknowledgements and Source Notes
 
-## 📜 Acknowledgement and Source Notes
+DRYClaw borrows design ideas and dependency strategies from [ShanClaw](https://github.com/Kocoro-lab/ShanClaw). We sincerely thank the ShanClaw team for their contributions to the open-source community.
 
-DRYClaw borrows design ideas and parts of dependency strategy from ShanClaw(https://github.com/Kocoro-lab/ShanClaw). We sincerely thank the ShanClaw team for their open-source work.
+**Important Notes:**
 
-Important notes:
-
-- `ax_server` related dependency and integration path are associated with ShanClaw.
-- Before enabling related features, please verify applicable license terms and usage conditions.
-- When redistributing components derived from external projects, keep required attribution and license notices.
-
+- The integration paths and dependencies related to `ax_server` are derived from the ShanClaw project.
+- Before enabling these features, please verify and comply with the applicable license terms and usage conditions.
+- When redistributing or deriving from components of external projects, please ensure that all required attributions and license notices are maintained.
 ---
 
 ## ⚠️ 声明与免责 | Disclaimer

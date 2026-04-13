@@ -4,7 +4,7 @@
 
 DRYClaw 是一个面向终端工作流的 Python AI Agent CLI，支持文件操作、Shell 执行、网页交互、任务调度与守护进程模式。
 
-<img src="docs/assets/intro-ui.png" alt="DRYClaw CLI 界面预览" width="700" />
+<img src="docs/assets/intro-ui.png" alt="DRYClaw CLI 界面预览" width="500" />
 
 ## 🔭 项目概览
 

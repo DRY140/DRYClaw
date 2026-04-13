@@ -1,3 +1,15 @@
+
+
+
+
+
+
+
+
+
+
+
+
 # DRYClaw
 
 Language: English | [中文](README.zh-CN.md)
@@ -25,7 +37,9 @@ DRYClaw is a Python AI agent CLI for terminal-first workflows, including file op
         演示终端基础命令执行与三层安全权限过滤流程。<br>
         Showcases basic command execution and the 3-layer security filtering.
       </p>
-      <video src="这里替换为你拖拽第一个半屏视频生成的链接" controls="controls" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></video>
+      <video src="=https://github.com/user-attachments/assets/ddfc4e3f-2820-4c6a-9b1e-779b035247f1
+
+" controls="controls" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></video>
     </td>
     <td style="padding: 10px; border: none;">
       <strong>2. 多模型适配展示</strong><br>
@@ -34,7 +48,7 @@ DRYClaw is a Python AI agent CLI for terminal-first workflows, including file op
         展示在 Anthropic/GLM/OpenAI 之间无缝切换的能力。<br>
         Demonstrates seamless switching between different LLM providers.
       </p>
-      <video src="这里替换为你拖拽第二个半屏视频生成的链接" controls="controls" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></video>
+      <video src="https://github.com/user-attachments/assets/2d4461c0-4775-4e2b-829c-d9dd0b52a557" controls="controls" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></video>
     </td>
   </tr>
 </table>
@@ -48,7 +62,7 @@ DRYClaw is a Python AI agent CLI for terminal-first workflows, including file op
     完整演示 Agent 如何通过 IPC 桥接 macOS 无障碍服务，实现复杂的跨应用图形界面操控。<br>
     A complete walkthrough of the Agent controlling macOS GUI applications via IPC bridging with Accessibility Services.
   </p>
-  <video src="这里替换为你拖拽全屏视频生成的链接" controls="controls" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></video>
+  <video src="[这里替换为你拖拽全屏视频生成的链接](https://github.com/user-attachments/assets/c4544462-f9ac-4c2e-8663-eca6c54d0c7b)" controls="controls" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></video>
 </div>
 
 ## Installation

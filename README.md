@@ -13,6 +13,44 @@ DRYClaw is a Python AI agent CLI for terminal-first workflows, including file op
 - macOS-friendly automation helpers (including accessibility-based flow)
 - Schedule and daemon commands for continuous workflows
 
+## Demo Videos
+## 📺 演示视频 | Demo Videos
+
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse; border: none;">
+  <tr>
+    <td style="padding: 10px; border: none;">
+      <strong>1. 基础操控与权限引擎</strong><br>
+      <i>Basic Control & Permission Engine</i>
+      <p style="font-size: 0.9em; color: #666;">
+        演示终端基础命令执行与三层安全权限过滤流程。<br>
+        Showcases basic command execution and the 3-layer security filtering.
+      </p>
+      <video src="这里替换为你拖拽第一个半屏视频生成的链接" controls="controls" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></video>
+    </td>
+    <td style="padding: 10px; border: none;">
+      <strong>2. 多模型适配展示</strong><br>
+      <i>Multi-Provider Adaptation</i>
+      <p style="font-size: 0.9em; color: #666;">
+        展示在 Anthropic/GLM/OpenAI 之间无缝切换的能力。<br>
+        Demonstrates seamless switching between different LLM providers.
+      </p>
+      <video src="这里替换为你拖拽第二个半屏视频生成的链接" controls="controls" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></video>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<div style="width: 100%; padding: 10px;">
+  <strong>3. GUI 视觉交互全流程 (核心演示)</strong><br>
+  <i>Full GUI & Vision Interaction Workflow (Core Demo)</i>
+  <p style="font-size: 0.9em; color: #666;">
+    完整演示 Agent 如何通过 IPC 桥接 macOS 无障碍服务，实现复杂的跨应用图形界面操控。<br>
+    A complete walkthrough of the Agent controlling macOS GUI applications via IPC bridging with Accessibility Services.
+  </p>
+  <video src="这里替换为你拖拽全屏视频生成的链接" controls="controls" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></video>
+</div>
+
 ## Installation
 
 ### Requirements

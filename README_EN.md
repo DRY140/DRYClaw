@@ -5,7 +5,7 @@ Language: English | [中文](README.md)
 
 DRYClaw is a Python AI agent CLI for terminal-first workflows, including file operations, shell execution, web interactions, scheduling, and daemon mode.
 
-<img src="docs/assets/intro-ui.png" alt="DRYClaw CLI Preview" width="500" />
+<img src="docs/assets/intro-ui-en.png" alt="DRYClaw CLI Preview" width="500" />
 
 ## 🔭 Project Overview
 

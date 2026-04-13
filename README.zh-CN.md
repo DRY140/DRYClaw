@@ -117,14 +117,13 @@ DRYClaw 会从用户目录读取本地运行配置：
 
 ## 📜 致谢与来源说明
 
-DRYClaw 在设计思路与部分依赖策略上借鉴了 ShanClaw。感谢 ShanClaw 团队的开源工作。
+DRYClaw 在设计思路与依赖策略上借鉴了 [ShanClaw](https://github.com/Kocoro-lab/ShanClaw)。感谢 ShanClaw 团队的开源工作。
 
-重要说明：
+**重要说明：**
 
-- ax_server 相关依赖与集成路径与 ShanClaw 有关联。
-- 启用相关功能前，请核对对应许可证与使用条件。
-- 重新分发来自外部项目的组件时，请保留必要的署名与许可证声明。
----
+- `ax_server` 相关依赖与集成路径源自 ShanClaw 项目。
+- 启用相关功能前，请核对并遵守对应的许可证与使用条件。
+- 在重新分发或衍生开发时，请务必保留原项目的署名与许可证声明。
 
 ## ⚠️ 声明与免责 | Disclaimer
 

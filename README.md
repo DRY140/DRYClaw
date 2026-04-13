@@ -166,3 +166,17 @@ Important notes:
 - `ax_server` related dependency and integration path are associated with ShanClaw.
 - Before enabling related features, please verify applicable license terms and usage conditions.
 - When redistributing components derived from external projects, keep required attribution and license notices.
+
+---
+
+## ⚠️ 声明与免责 | Disclaimer
+
+> **本项目仅用于学习与工程演示，并非面向生产环境设计的自治系统。**
+> 
+> **DRYClaw** 是一个旨在探索 LLM Agent 底层工程机制、工具调度架构及 GUI 自动化链路的实验性项目。其核心目的在于技术验证与学术研究，不建议将其部署于任何关键生产环境或涉及敏感数据的生产业务中。开发者不对因使用本工具而导致的任何直接或间接资产损失或系统风险承担责任。
+>
+> ---
+>
+> **This project is for educational and demonstration purposes only and is NOT an autonomous system designed for production environments.**
+> 
+> **DRYClaw** is an experimental project focused on exploring the underlying engineering mechanisms of Agent Loops, tool orchestration architectures, and GUI automation workflows. It is intended for technical verification and academic research. We strongly advise against deploying this system in critical production environments or handling sensitive business data. The developer assumes no liability for any direct or indirect asset loss or system risks resulting from the use of this tool.

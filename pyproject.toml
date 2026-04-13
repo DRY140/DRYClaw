@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dryclaw"
+version = "0.1.0"
+description = "A Python AI Agent CLI, closely modeled after ShanClaw"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.50.0",
+    "openai>=1.0.0",
+    "zai-sdk>=0.2.0",
+    "pydantic-settings>=2.0",
+    "pyyaml>=6.0",
+    "rich>=13.0",
+    "typer>=0.12.0",
+    "playwright>=1.44.0",
+    "mcp>=1.0.0",
+    "croniter>=2.0",
+    "fastapi>=0.110.0",
+    "uvicorn>=0.29.0",
+    "websockets>=12.0",
+    "pillow>=10.0",
+    "httpx>=0.27.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[project.scripts]
+dryclaw = "dryclaw.main:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["dryclaw"]

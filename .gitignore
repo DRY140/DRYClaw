@@ -1,0 +1,12 @@
+__pycache__/
+.DS_Store
+.venv/
+.pytest_cache/
+.mypy_cache/
+dist/
+build/
+*.egg-info/
+.env
+.env.*
+credentials.json
+config.yaml

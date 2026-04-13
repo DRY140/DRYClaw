@@ -1,0 +1,12 @@
+# DRYClaw public example configuration
+# This file is safe to commit. Do not put real credentials here.
+
+provider: anthropic
+model: claude-3-7-sonnet
+api_base: https://api.example.com
+
+# Optional external dependency path (placeholder only)
+# ax_server_path: /path/to/ax_server
+
+max_iterations: 25
+context_window: 32000

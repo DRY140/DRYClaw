@@ -1,3 +1,13 @@
+## 🔭 项目概览
+演示视频	📺	`## 📺 演示视频
+安装	📦	## 📦 安装
+快速开始	🚀	## 🚀 快速开始
+环境配置	🛠️	## 🛠️ 环境配置
+CLI 用法	⌨️	## ⌨️ CLI 用法
+致谢与来源说明	📜	## 📜 致谢与来源说明
+声明与免责	⚠️	`## ⚠️ 声明与免责
+
+
 # DRYClaw
 
 Language: English | [中文](README.zh-CN.md)
@@ -6,7 +16,7 @@ DRYClaw is a Python AI agent CLI for terminal-first workflows, including file op
 
 <img src="docs/assets/intro-ui.png" alt="DRYClaw CLI Preview" width="700" />
 
-## Project Overview
+## 🔭 Project Overview
 
 - Lightweight CLI agent loop with tool calling
 - Local session persistence and memory append support
@@ -17,62 +27,27 @@ DRYClaw is a Python AI agent CLI for terminal-first workflows, including file op
 
 <table style="width: 100%; table-layout: fixed; border-collapse: collapse; border: none;">
   <tr>
-    <td style="padding: 10px; border: none;">
-      <strong>1. 基础操控与权限引擎</strong><br>
-      <i>Basic Control & Permission Engine</i>
-      <p style="font-size: 0.9em; color: #666;">
-        演示终端基础命令执行与三层安全权限过滤流程。<br>
-        Showcases basic command execution and the 3-layer security filtering.
+    <td style="width: 50%; padding: 10px; border: none; vertical-align: top;">
+      <strong>1. 基础操控与文件自动化 | Basic Control & File Automation</strong>
+      <p style="color: #666; font-size: 0.9em; margin-bottom: 8px;">
+        读取文件内容，编写 Python 统计脚本并完成本地存储。<br>
+        Read files, write Python scripts, and perform local storage.
       </p>
-      <video src="=https://github.com/user-attachments/assets/ddfc4e3f-2820-4c6a-9b1e-779b035247f1
-
-" controls="controls" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></video>
+      <p style="font-size: 0.85em; color: #33b3ae;">
+        <i>Prompt: 读取杜甫诗选.txt，统计每首诗字数，生成 python 脚本并保存到当前目录。</i>
+      </p>
+      <video src="https://github.com/user-attachments/assets/ddfc4e3f-2820-4c6a-9b1e-779b035247f1" controls="controls" style="width: 100%; border-radius: 6px;"></video>
     </td>
-    <td style="padding: 10px; border: none;">
-      <strong>2. 多模型适配展示</strong><br>
-      <i>Multi-Provider Adaptation</i>
-      <p style="font-size: 0.9em; color: #666;">
-        展示在 Anthropic/GLM/OpenAI 之间无缝切换的能力。<br>
-        Demonstrates seamless switching between different LLM providers.
+    <td style="width: 50%; padding: 10px; border: none; vertical-align: top;">
+      <strong>2. 多轮对话与文档生成 | Multi-turn Interaction & Doc Gen</strong>
+      <p style="color: #666; font-size: 0.9em; margin-bottom: 8px;">
+        分析代码架构，通过多轮对话推演改进方案并导出文档。<br>
+        Analyze code, derive improvements via multi-turn chat, and export docs.
       </p>
-      <video src="https://github.com/user-attachments/assets/2d4461c0-4775-4e2b-829c-d9dd0b52a557" controls="controls" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></video>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<div style="width: 100%; padding: 10px;">
-  <strong>3. GUI 视觉交互全流程 (核心演示)</strong><br>
-  <i>Full GUI & Vision Interaction Workflow (Core Demo)</i>
-  <p style="font-size: 0.9em; color: #666;">
-    完整演示 Agent 如何通过 IPC 桥接 macOS 无障碍服务，实现复杂的跨应用图形界面操控。<br>
-    A complete walkthrough of the Agent controlling macOS GUI applications via IPC bridging with Accessibility Services.
-  </p>
-  <video src="[这里替换为你拖拽全屏视频生成的链接](https://github.com/user-attachments/assets/c4544462-f9ac-4c2e-8663-eca6c54d0c7b)" controls="controls" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></video>
-</div>
-
-## 📺 演示视频 | Demo Videos
-
-<table style="width: 100%; table-layout: fixed; border-collapse: collapse; border: none;">
-  <tr>
-    <td style="padding: 10px; border: none;">
-      <strong>1. 基础操控与权限引擎</strong><br>
-      <i>Basic Control & Permission Engine</i>
-      <p style="font-size: 0.9em; color: #666;">
-        演示终端基础命令执行与三层安全权限过滤流程。<br>
-        Showcases basic command execution and the 3-layer security filtering.
+      <p style="font-size: 0.85em; color: #33b3ae;">
+        <i>Prompt: 1. 总结 loop.py 架构；2. 给出 3 个改进点；3. 将改进总结为 改进.md 并保存。</i>
       </p>
-      <video src="https://github.com/user-attachments/assets/ddfc4e3f-2820-4c6a-9b1e-779b035247f1" controls="controls" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></video>
-    </td>
-    <td style="padding: 10px; border: none;">
-      <strong>2. 多模型适配展示</strong><br>
-      <i>Multi-Provider Adaptation</i>
-      <p style="font-size: 0.9em; color: #666;">
-        展示在 Anthropic/GLM/OpenAI 之间无缝切换的能力。<br>
-        Demonstrates seamless switching between different LLM providers.
-      </p>
-      <video src="https://github.com/user-attachments/assets/2d4461c0-4775-4e2b-829c-d9dd0b52a557" controls="controls" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></video>
+      <video src="https://github.com/user-attachments/assets/2d4461c0-4775-4e2b-829c-d9dd0b52a557" controls="controls" style="width: 100%; border-radius: 6px;"></video>
     </td>
   </tr>
 </table>
@@ -80,16 +55,18 @@ DRYClaw is a Python AI agent CLI for terminal-first workflows, including file op
 <br>
 
 <div style="width: 100%; padding: 10px;">
-  <strong>3. GUI 视觉交互全流程 (核心演示)</strong><br>
-  <i>Full GUI & Vision Interaction Workflow (Core Demo)</i>
-  <p style="font-size: 0.9em; color: #666;">
-    完整演示 Agent 如何通过 IPC 桥接 macOS 无障碍服务，实现复杂的跨应用图形界面操控。<br>
-    A complete walkthrough of the Agent controlling macOS GUI applications via IPC bridging with Accessibility Services.
+  <strong>3. GUI 视觉交互 | GUI & Vision Interaction</strong>
+  <p style="color: #666; font-size: 0.9em; margin-bottom: 8px;">
+    桥接系统无障碍服务实现屏幕感知与视觉内容描述。<br>
+    Bridge Accessibility API for screen perception and visual description.
   </p>
-  <video src="https://github.com/user-attachments/assets/c4544462-f9ac-4c2e-8663-eca6c54d0c7b" controls="controls" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></video>
+  <p style="font-size: 0.85em; color: #33b3ae;">
+    <i>Prompt: 截取当前屏幕，保存图像并描述你在截图中看到了什么。</i>
+  </p>
+  <video src="https://github.com/user-attachments/assets/c4544462-f9ac-4c2e-8663-eca6c54d0c7b" controls="controls" style="width: 100%; border-radius: 6px;"></video>
 </div>
 
-## Installation
+## 📦 Installation
 
 ### Requirements
 
@@ -121,7 +98,7 @@ dryclaw
 
 This starts a direct multi-turn conversation in the project CLI.
 
-## Environment Configuration
+## 🛠️ Environment Configuration
 
 DRYClaw reads local runtime configuration from the user home directory:
 
@@ -130,7 +107,7 @@ DRYClaw reads local runtime configuration from the user home directory:
 
 Do not commit real keys or private endpoints. Use templates in [examples/config.example.yaml](examples/config.example.yaml) and [examples/credentials.example.json](examples/credentials.example.json).
 
-## CLI Usage
+## ⌨️ CLI Usage
 
 Common commands:
 
@@ -147,19 +124,10 @@ Common commands:
 
 Detailed docs are in [docs/](docs/index.md).
 
-## Demo Videos
 
-Video index: [docs/videos.md](docs/videos.md)
+## 📜 Acknowledgement and Source Notes
 
-Recommended hosting:
-
-- YouTube
-- Bilibili
-- GitHub Releases
-
-## Acknowledgement and Source Notes
-
-DRYClaw borrows design ideas and parts of dependency strategy from ShanClaw. We sincerely thank the ShanClaw team for their open-source work.
+DRYClaw borrows design ideas and parts of dependency strategy from ShanClaw(https://github.com/Kocoro-lab/ShanClaw). We sincerely thank the ShanClaw team for their open-source work.
 
 Important notes:
 
